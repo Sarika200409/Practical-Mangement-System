@@ -6,7 +6,7 @@ import router from "../routes/daw.js";
 const app = express();
 
 dotenv.config();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 app.use(express.json());
 
